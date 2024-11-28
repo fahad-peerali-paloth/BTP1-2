@@ -1,0 +1,1203 @@
+# Session file started:  2018/02/16 14:46:54
+# CFX-16.0 build 2014.11.14-23.10-133146
+
+# To avoid unnecessary file pre-processing and modifications, include
+# COMMAND FILE at the top of your session file.
+# If it is not included, the file is assumed to be older and will be
+# modified for backward compatibility.
+COMMAND FILE:
+  CFX Post Version = 18.1
+END
+
+DATA READER:
+  
+  Clear All Objects = false
+  Append Results = false
+  Edit Case Names = false
+  Open to Compare = false
+  Multi Configuration File Load Option = Last Case
+  Open in New View = true
+  Keep Camera Position = true
+  Load Particle Tracks = true
+  Files to Compare =
+  Construct Variables From Fourier Coefficients = True
+END
+> load filename=L:\FAHAD\slamming ML\1stModel_data\NEW\FN_0.1\lamdabyL_0.5\hbylamda_1by15/pp-1-0.001.dat, force_reload=\
+true
+
+VIEW:View 1
+  Camera Mode = User Specified
+  CAMERA:
+    Option = Pivot Point and Quaternion
+    Pivot Point = 5.7834, 0.04, 0
+    Scale = 1
+    Pan = 0, 0
+    Rotation Quaternion = 0, 0, 0, 0
+  END
+  
+END
+
+VIEW:View 2
+  Camera Mode = User Specified
+  CAMERA:
+    Option = Pivot Point and Quaternion
+    Pivot Point = 5.9262, 0.0407, 0
+    Scale = 1
+    Pan = 0, 0
+    Rotation Quaternion = 0, 0, 0, 0
+  END
+  
+END
+
+
+VIEW:View 3
+  Camera Mode = User Specified
+  CAMERA:
+    Option = Pivot Point and Quaternion
+    Pivot Point = 6.069, 0.0407, 0
+    Scale = 1
+    Pan = 0, 0
+    Rotation Quaternion = 0, 0, 0, 0
+  END
+  
+END
+
+
+VIEW:View 4
+  Camera Mode = User Specified
+  CAMERA:
+    Option = Pivot Point and Quaternion
+    Pivot Point = 6.2118, 0.0407, 0
+    Scale = 1
+    Pan = 0, 0
+    Rotation Quaternion = 0, 0, 0, 0
+  END
+  
+END
+
+
+VIEW:View 5
+  Camera Mode = User Specified
+  CAMERA:
+    Option = Pivot Point and Quaternion
+    Pivot Point = 6.3546, 0.0407, 0
+    Scale = 1
+    Pan = 0, 0
+    Rotation Quaternion = 0, 0, 0, 0
+  END
+  
+END
+
+
+VIEW:View 6
+  Camera Mode = User Specified
+  CAMERA:
+    Option = Pivot Point and Quaternion
+    Pivot Point = 6.4974, 0.0442, 0
+    Scale = 1
+    Pan = 0, 0
+    Rotation Quaternion = 0, 0, 0, 0
+  END
+  
+END
+
+
+VIEW:View 7
+  Camera Mode = User Specified
+  CAMERA:
+    Option = Pivot Point and Quaternion
+    Pivot Point = 6.6402, 0.0635, 0
+    Scale = 1
+    Pan = 0, 0
+    Rotation Quaternion = 0, 0, 0, 0
+  END
+  
+END
+
+
+VIEW:View 8
+  Camera Mode = User Specified
+  CAMERA:
+    Option = Pivot Point and Quaternion
+    Pivot Point = 6.783, 0.125, 0
+    Scale = 1
+    Pan = 0, 0
+    Rotation Quaternion = 0, 0, 0, 0
+  END
+  
+END
+
+
+VIEW:View 9
+  Camera Mode = User Specified
+  CAMERA:
+    Option = Pivot Point and Quaternion
+    Pivot Point = 6.926, 0.2, 0
+    Scale = 1
+    Pan = 0, 0
+    Rotation Quaternion = 0, 0, 0, 0
+  END
+  
+END
+
+VIEW:View 10
+  Camera Mode = User Specified
+  CAMERA:
+    Option = Pivot Point and Quaternion
+    Pivot Point = 6.783, 0.2791, 0
+    Scale = 1
+    Pan = 0, 0
+    Rotation Quaternion = 0, 0, 0, 0
+  END
+  
+END
+
+VIEW:View 11
+  Camera Mode = User Specified
+  CAMERA:
+    Option = Pivot Point and Quaternion
+    Pivot Point = 6.6402, 0.305, 0
+    Scale = 1
+    Pan = 0, 0
+    Rotation Quaternion = 0, 0, 0, 0
+  END
+  
+END
+
+VIEW:View 12
+  Camera Mode = User Specified
+  CAMERA:
+    Option = Pivot Point and Quaternion
+    Pivot Point = 6.61431, 0.34, 0
+    Scale = 1
+    Pan = 0, 0
+    Rotation Quaternion = 0, 0, 0, 0
+  END
+  
+END
+
+VIEW:View 13
+  Camera Mode = User Specified
+  CAMERA:
+    Option = Pivot Point and Quaternion
+    Pivot Point = 6.6402, 0.383, 0
+    Scale = 1
+    Pan = 0, 0
+    Rotation Quaternion = 0, 0, 0, 0
+  END
+  
+END
+
+> update
+
+POINT:Point 1
+  Apply Instancing Transform = On
+  Colour = 1, 1, 0
+  Colour Map = Default Colour Map
+  Colour Mode = Constant
+  Colour Scale = Linear
+  Colour Variable = Pressure
+  Colour Variable Boundary Values = Conservative
+  Culling Mode = No Culling
+  Domain List = /DOMAIN GROUP:All Domains
+  Draw Faces = On
+  Draw Lines = Off
+  Instancing Transform = /DEFAULT INSTANCE TRANSFORM:Default Transform
+  Lighting = On
+  Line Width = 2
+  Max = 0.0
+  Min = 0.0
+  Node Number = 14640
+  Option = Node Number
+  Point = 0 [m], 0 [m], 0 [m]
+  Point Symbol = Crosshair
+  Range = Global
+  Specular Lighting = On
+  Surface Drawing = Smooth Shading
+  Symbol Size = 1.0
+  Transparency = 0.0
+  Variable = Pressure
+  Variable Boundary Values = Conservative
+  OBJECT VIEW TRANSFORM:
+    Apply Reflection = Off
+    Apply Rotation = Off
+    Apply Scale = Off
+    Apply Translation = Off
+    Principal Axis = Z
+    Reflection Plane Option = XY Plane
+    Rotation Angle = 0.0 [degree]
+    Rotation Axis From = 0 [m], 0 [m], 0 [m]
+    Rotation Axis To = 0 [m], 0 [m], 0 [m]
+    Rotation Axis Type = Principal Axis
+    Scale Vector = 1 , 1 , 1
+    Translation Vector = 0 [m], 0 [m], 0 [m]
+    X = 0.0 [m]
+    Y = 0.0 [m]
+    Z = 0.0 [m]
+  END
+END
+
+POINT:Point 2
+  Apply Instancing Transform = On
+  Colour = 1, 1, 0
+  Colour Map = Default Colour Map
+  Colour Mode = Constant
+  Colour Scale = Linear
+  Colour Variable = Pressure
+  Colour Variable Boundary Values = Conservative
+  Culling Mode = No Culling
+  Domain List = /DOMAIN GROUP:All Domains
+  Draw Faces = On
+  Draw Lines = Off
+  Instancing Transform = /DEFAULT INSTANCE TRANSFORM:Default Transform
+  Lighting = On
+  Line Width = 2
+  Max = 0.0
+  Min = 0.0
+  Node Number = 14820
+  Option = Node Number
+  Point = 0 [m], 0 [m], 0 [m]
+  Point Symbol = Crosshair
+  Range = Global
+  Specular Lighting = On
+  Surface Drawing = Smooth Shading
+  Symbol Size = 1.0
+  Transparency = 0.0
+  Variable = Pressure
+  Variable Boundary Values = Conservative
+  OBJECT VIEW TRANSFORM:
+    Apply Reflection = Off
+    Apply Rotation = Off
+    Apply Scale = Off
+    Apply Translation = Off
+    Principal Axis = Z
+    Reflection Plane Option = XY Plane
+    Rotation Angle = 0.0 [degree]
+    Rotation Axis From = 0 [m], 0 [m], 0 [m]
+    Rotation Axis To = 0 [m], 0 [m], 0 [m]
+    Rotation Axis Type = Principal Axis
+    Scale Vector = 1 , 1 , 1
+    Translation Vector = 0 [m], 0 [m], 0 [m]
+    X = 0.0 [m]
+    Y = 0.0 [m]
+    Z = 0.0 [m]
+  END
+END
+
+POINT:Point 3
+  Apply Instancing Transform = On
+  Colour = 1, 1, 0
+  Colour Map = Default Colour Map
+  Colour Mode = Constant
+  Colour Scale = Linear
+  Colour Variable = Pressure
+  Colour Variable Boundary Values = Conservative
+  Culling Mode = No Culling
+  Domain List = /DOMAIN GROUP:All Domains
+  Draw Faces = On
+  Draw Lines = Off
+  Instancing Transform = /DEFAULT INSTANCE TRANSFORM:Default Transform
+  Lighting = On
+  Line Width = 2
+  Max = 0.0
+  Min = 0.0
+  Node Number = 15000
+  Option = Node Number
+  Point = 0 [m], 0 [m], 0 [m]
+  Point Symbol = Crosshair
+  Range = Global
+  Specular Lighting = On
+  Surface Drawing = Smooth Shading
+  Symbol Size = 1.0
+  Transparency = 0.0
+  Variable = Pressure
+  Variable Boundary Values = Conservative
+  OBJECT VIEW TRANSFORM:
+    Apply Reflection = Off
+    Apply Rotation = Off
+    Apply Scale = Off
+    Apply Translation = Off
+    Principal Axis = Z
+    Reflection Plane Option = XY Plane
+    Rotation Angle = 0.0 [degree]
+    Rotation Axis From = 0 [m], 0 [m], 0 [m]
+    Rotation Axis To = 0 [m], 0 [m], 0 [m]
+    Rotation Axis Type = Principal Axis
+    Scale Vector = 1 , 1 , 1
+    Translation Vector = 0 [m], 0 [m], 0 [m]
+    X = 0.0 [m]
+    Y = 0.0 [m]
+    Z = 0.0 [m]
+  END
+END
+
+POINT:Point 4
+  Apply Instancing Transform = On
+  Colour = 1, 1, 0
+  Colour Map = Default Colour Map
+  Colour Mode = Constant
+  Colour Scale = Linear
+  Colour Variable = Pressure
+  Colour Variable Boundary Values = Conservative
+  Culling Mode = No Culling
+  Domain List = /DOMAIN GROUP:All Domains
+  Draw Faces = On
+  Draw Lines = Off
+  Instancing Transform = /DEFAULT INSTANCE TRANSFORM:Default Transform
+  Lighting = On
+  Line Width = 2
+  Max = 0.0
+  Min = 0.0
+  Node Number = 15240
+  Option = Node Number
+  Point = 0 [m], 0 [m], 0 [m]
+  Point Symbol = Crosshair
+  Range = Global
+  Specular Lighting = On
+  Surface Drawing = Smooth Shading
+  Symbol Size = 1.0
+  Transparency = 0.0
+  Variable = Pressure
+  Variable Boundary Values = Conservative
+  OBJECT VIEW TRANSFORM:
+    Apply Reflection = Off
+    Apply Rotation = Off
+    Apply Scale = Off
+    Apply Translation = Off
+    Principal Axis = Z
+    Reflection Plane Option = XY Plane
+    Rotation Angle = 0.0 [degree]
+    Rotation Axis From = 0 [m], 0 [m], 0 [m]
+    Rotation Axis To = 0 [m], 0 [m], 0 [m]
+    Rotation Axis Type = Principal Axis
+    Scale Vector = 1 , 1 , 1
+    Translation Vector = 0 [m], 0 [m], 0 [m]
+    X = 0.0 [m]
+    Y = 0.0 [m]
+    Z = 0.0 [m]
+  END
+END
+
+POINT:Point 5
+  Apply Instancing Transform = On
+  Colour = 1, 1, 0
+  Colour Map = Default Colour Map
+  Colour Mode = Constant
+  Colour Scale = Linear
+  Colour Variable = Pressure
+  Colour Variable Boundary Values = Conservative
+  Culling Mode = No Culling
+  Domain List = /DOMAIN GROUP:All Domains
+  Draw Faces = On
+  Draw Lines = Off
+  Instancing Transform = /DEFAULT INSTANCE TRANSFORM:Default Transform
+  Lighting = On
+  Line Width = 2
+  Max = 0.0
+  Min = 0.0
+  Node Number = 15420
+  Option = Node Number
+  Point = 0 [m], 0 [m], 0 [m]
+  Point Symbol = Crosshair
+  Range = Global
+  Specular Lighting = On
+  Surface Drawing = Smooth Shading
+  Symbol Size = 1.0
+  Transparency = 0.0
+  Variable = Pressure
+  Variable Boundary Values = Conservative
+  OBJECT VIEW TRANSFORM:
+    Apply Reflection = Off
+    Apply Rotation = Off
+    Apply Scale = Off
+    Apply Translation = Off
+    Principal Axis = Z
+    Reflection Plane Option = XY Plane
+    Rotation Angle = 0.0 [degree]
+    Rotation Axis From = 0 [m], 0 [m], 0 [m]
+    Rotation Axis To = 0 [m], 0 [m], 0 [m]
+    Rotation Axis Type = Principal Axis
+    Scale Vector = 1 , 1 , 1
+    Translation Vector = 0 [m], 0 [m], 0 [m]
+    X = 0.0 [m]
+    Y = 0.0 [m]
+    Z = 0.0 [m]
+  END
+END
+
+POINT:Point 6
+  Apply Instancing Transform = On
+  Colour = 1, 1, 0
+  Colour Map = Default Colour Map
+  Colour Mode = Constant
+  Colour Scale = Linear
+  Colour Variable = Pressure
+  Colour Variable Boundary Values = Conservative
+  Culling Mode = No Culling
+  Domain List = /DOMAIN GROUP:All Domains
+  Draw Faces = On
+  Draw Lines = Off
+  Instancing Transform = /DEFAULT INSTANCE TRANSFORM:Default Transform
+  Lighting = On
+  Line Width = 2
+  Max = 0.0
+  Min = 0.0
+  Node Number = 15600
+  Option = Node Number
+  Point = 0 [m], 0 [m], 0 [m]
+  Point Symbol = Crosshair
+  Range = Global
+  Specular Lighting = On
+  Surface Drawing = Smooth Shading
+  Symbol Size = 1.0
+  Transparency = 0.0
+  Variable = Pressure
+  Variable Boundary Values = Conservative
+  OBJECT VIEW TRANSFORM:
+    Apply Reflection = Off
+    Apply Rotation = Off
+    Apply Scale = Off
+    Apply Translation = Off
+    Principal Axis = Z
+    Reflection Plane Option = XY Plane
+    Rotation Angle = 0.0 [degree]
+    Rotation Axis From = 0 [m], 0 [m], 0 [m]
+    Rotation Axis To = 0 [m], 0 [m], 0 [m]
+    Rotation Axis Type = Principal Axis
+    Scale Vector = 1 , 1 , 1
+    Translation Vector = 0 [m], 0 [m], 0 [m]
+    X = 0.0 [m]
+    Y = 0.0 [m]
+    Z = 0.0 [m]
+  END
+END
+
+POINT:Point 7
+  Apply Instancing Transform = On
+  Colour = 1, 1, 0
+  Colour Map = Default Colour Map
+  Colour Mode = Constant
+  Colour Scale = Linear
+  Colour Variable = Pressure
+  Colour Variable Boundary Values = Conservative
+  Culling Mode = No Culling
+  Domain List = /DOMAIN GROUP:All Domains
+  Draw Faces = On
+  Draw Lines = Off
+  Instancing Transform = /DEFAULT INSTANCE TRANSFORM:Default Transform
+  Lighting = On
+  Line Width = 2
+  Max = 0.0
+  Min = 0.0
+  Node Number = 15840
+  Option = Node Number
+  Point = 0 [m], 0 [m], 0 [m]
+  Point Symbol = Crosshair
+  Range = Global
+  Specular Lighting = On
+  Surface Drawing = Smooth Shading
+  Symbol Size = 1.0
+  Transparency = 0.0
+  Variable = Pressure
+  Variable Boundary Values = Conservative
+  OBJECT VIEW TRANSFORM:
+    Apply Reflection = Off
+    Apply Rotation = Off
+    Apply Scale = Off
+    Apply Translation = Off
+    Principal Axis = Z
+    Reflection Plane Option = XY Plane
+    Rotation Angle = 0.0 [degree]
+    Rotation Axis From = 0 [m], 0 [m], 0 [m]
+    Rotation Axis To = 0 [m], 0 [m], 0 [m]
+    Rotation Axis Type = Principal Axis
+    Scale Vector = 1 , 1 , 1
+    Translation Vector = 0 [m], 0 [m], 0 [m]
+    X = 0.0 [m]
+    Y = 0.0 [m]
+    Z = 0.0 [m]
+  END
+END
+
+POINT:Point 8
+  Apply Instancing Transform = On
+  Colour = 1, 1, 0
+  Colour Map = Default Colour Map
+  Colour Mode = Constant
+  Colour Scale = Linear
+  Colour Variable = Pressure
+  Colour Variable Boundary Values = Conservative
+  Culling Mode = No Culling
+  Domain List = /DOMAIN GROUP:All Domains
+  Draw Faces = On
+  Draw Lines = Off
+  Instancing Transform = /DEFAULT INSTANCE TRANSFORM:Default Transform
+  Lighting = On
+  Line Width = 2
+  Max = 0.0
+  Min = 0.0
+  Node Number = 16020
+  Option = Node Number
+  Point = 0 [m], 0 [m], 0 [m]
+  Point Symbol = Crosshair
+  Range = Global
+  Specular Lighting = On
+  Surface Drawing = Smooth Shading
+  Symbol Size = 1.0
+  Transparency = 0.0
+  Variable = Pressure
+  Variable Boundary Values = Conservative
+  OBJECT VIEW TRANSFORM:
+    Apply Reflection = Off
+    Apply Rotation = Off
+    Apply Scale = Off
+    Apply Translation = Off
+    Principal Axis = Z
+    Reflection Plane Option = XY Plane
+    Rotation Angle = 0.0 [degree]
+    Rotation Axis From = 0 [m], 0 [m], 0 [m]
+    Rotation Axis To = 0 [m], 0 [m], 0 [m]
+    Rotation Axis Type = Principal Axis
+    Scale Vector = 1 , 1 , 1
+    Translation Vector = 0 [m], 0 [m], 0 [m]
+    X = 0.0 [m]
+    Y = 0.0 [m]
+    Z = 0.0 [m]
+  END
+END
+
+POINT:Point 9
+  Apply Instancing Transform = On
+  Colour = 1, 1, 0
+  Colour Map = Default Colour Map
+  Colour Mode = Constant
+  Colour Scale = Linear
+  Colour Variable = Pressure
+  Colour Variable Boundary Values = Conservative
+  Culling Mode = No Culling
+  Domain List = /DOMAIN GROUP:All Domains
+  Draw Faces = On
+  Draw Lines = Off
+  Instancing Transform = /DEFAULT INSTANCE TRANSFORM:Default Transform
+  Lighting = On
+  Line Width = 2
+  Max = 0.0
+  Min = 0.0
+  Node Number = 43016
+  Option = Node Number
+  Point = 0 [m], 0 [m], 0 [m]
+  Point Symbol = Crosshair
+  Range = Global
+  Specular Lighting = On
+  Surface Drawing = Smooth Shading
+  Symbol Size = 1.0
+  Transparency = 0.0
+  Variable = Pressure
+  Variable Boundary Values = Conservative
+  OBJECT VIEW TRANSFORM:
+    Apply Reflection = Off
+    Apply Rotation = Off
+    Apply Scale = Off
+    Apply Translation = Off
+    Principal Axis = Z
+    Reflection Plane Option = XY Plane
+    Rotation Angle = 0.0 [degree]
+    Rotation Axis From = 0 [m], 0 [m], 0 [m]
+    Rotation Axis To = 0 [m], 0 [m], 0 [m]
+    Rotation Axis Type = Principal Axis
+    Scale Vector = 1 , 1 , 1
+    Translation Vector = 0 [m], 0 [m], 0 [m]
+    X = 0.0 [m]
+    Y = 0.0 [m]
+    Z = 0.0 [m]
+  END
+END
+
+POINT:Point 10
+  Apply Instancing Transform = On
+  Colour = 1, 1, 0
+  Colour Map = Default Colour Map
+  Colour Mode = Constant
+  Colour Scale = Linear
+  Colour Variable = Pressure
+  Colour Variable Boundary Values = Conservative
+  Culling Mode = No Culling
+  Domain List = /DOMAIN GROUP:All Domains
+  Draw Faces = On
+  Draw Lines = Off
+  Instancing Transform = /DEFAULT INSTANCE TRANSFORM:Default Transform
+  Lighting = On
+  Line Width = 2
+  Max = 0.0
+  Min = 0.0
+  Node Number = 42928
+  Option = Node Number
+  Point = 0 [m], 0 [m], 0 [m]
+  Point Symbol = Crosshair
+  Range = Global
+  Specular Lighting = On
+  Surface Drawing = Smooth Shading
+  Symbol Size = 1.0
+  Transparency = 0.0
+  Variable = Pressure
+  Variable Boundary Values = Conservative
+  OBJECT VIEW TRANSFORM:
+    Apply Reflection = Off
+    Apply Rotation = Off
+    Apply Scale = Off
+    Apply Translation = Off
+    Principal Axis = Z
+    Reflection Plane Option = XY Plane
+    Rotation Angle = 0.0 [degree]
+    Rotation Axis From = 0 [m], 0 [m], 0 [m]
+    Rotation Axis To = 0 [m], 0 [m], 0 [m]
+    Rotation Axis Type = Principal Axis
+    Scale Vector = 1 , 1 , 1
+    Translation Vector = 0 [m], 0 [m], 0 [m]
+    X = 0.0 [m]
+    Y = 0.0 [m]
+    Z = 0.0 [m]
+  END
+END
+
+POINT:Point 11
+  Apply Instancing Transform = On
+  Colour = 1, 1, 0
+  Colour Map = Default Colour Map
+  Colour Mode = Constant
+  Colour Scale = Linear
+  Colour Variable = Pressure
+  Colour Variable Boundary Values = Conservative
+  Culling Mode = No Culling
+  Domain List = /DOMAIN GROUP:All Domains
+  Draw Faces = On
+  Draw Lines = Off
+  Instancing Transform = /DEFAULT INSTANCE TRANSFORM:Default Transform
+  Lighting = On
+  Line Width = 2
+  Max = 0.0
+  Min = 0.0
+  Node Number = 42936
+  Option = Node Number
+  Point = 0 [m], 0 [m], 0 [m]
+  Point Symbol = Crosshair
+  Range = Global
+  Specular Lighting = On
+  Surface Drawing = Smooth Shading
+  Symbol Size = 1.0
+  Transparency = 0.0
+  Variable = Pressure
+  Variable Boundary Values = Conservative
+  OBJECT VIEW TRANSFORM:
+    Apply Reflection = Off
+    Apply Rotation = Off
+    Apply Scale = Off
+    Apply Translation = Off
+    Principal Axis = Z
+    Reflection Plane Option = XY Plane
+    Rotation Angle = 0.0 [degree]
+    Rotation Axis From = 0 [m], 0 [m], 0 [m]
+    Rotation Axis To = 0 [m], 0 [m], 0 [m]
+    Rotation Axis Type = Principal Axis
+    Scale Vector = 1 , 1 , 1
+    Translation Vector = 0 [m], 0 [m], 0 [m]
+    X = 0.0 [m]
+    Y = 0.0 [m]
+    Z = 0.0 [m]
+  END
+END
+
+POINT:Point 12
+  Apply Instancing Transform = On
+  Colour = 1, 1, 0
+  Colour Map = Default Colour Map
+  Colour Mode = Constant
+  Colour Scale = Linear
+  Colour Variable = Pressure
+  Colour Variable Boundary Values = Conservative
+  Culling Mode = No Culling
+  Domain List = /DOMAIN GROUP:All Domains
+  Draw Faces = On
+  Draw Lines = Off
+  Instancing Transform = /DEFAULT INSTANCE TRANSFORM:Default Transform
+  Lighting = On
+  Line Width = 2
+  Max = 0.0
+  Min = 0.0
+  Node Number = 42938
+  Option = Node Number
+  Point = 0 [m], 0 [m], 0 [m]
+  Point Symbol = Crosshair
+  Range = Global
+  Specular Lighting = On
+  Surface Drawing = Smooth Shading
+  Symbol Size = 1.0
+  Transparency = 0.0
+  Variable = Pressure
+  Variable Boundary Values = Conservative
+  OBJECT VIEW TRANSFORM:
+    Apply Reflection = Off
+    Apply Rotation = Off
+    Apply Scale = Off
+    Apply Translation = Off
+    Principal Axis = Z
+    Reflection Plane Option = XY Plane
+    Rotation Angle = 0.0 [degree]
+    Rotation Axis From = 0 [m], 0 [m], 0 [m]
+    Rotation Axis To = 0 [m], 0 [m], 0 [m]
+    Rotation Axis Type = Principal Axis
+    Scale Vector = 1 , 1 , 1
+    Translation Vector = 0 [m], 0 [m], 0 [m]
+    X = 0.0 [m]
+    Y = 0.0 [m]
+    Z = 0.0 [m]
+  END
+END
+
+POINT:Point 13
+  Apply Instancing Transform = On
+  Colour = 1, 1, 0
+  Colour Map = Default Colour Map
+  Colour Mode = Constant
+  Colour Scale = Linear
+  Colour Variable = Pressure
+  Colour Variable Boundary Values = Conservative
+  Culling Mode = No Culling
+  Domain List = /DOMAIN GROUP:All Domains
+  Draw Faces = On
+  Draw Lines = Off
+  Instancing Transform = /DEFAULT INSTANCE TRANSFORM:Default Transform
+  Lighting = On
+  Line Width = 2
+  Max = 0.0
+  Min = 0.0
+  Node Number = 42940
+  Option = Node Number
+  Point = 0 [m], 0 [m], 0 [m]
+  Point Symbol = Crosshair
+  Range = Global
+  Specular Lighting = On
+  Surface Drawing = Smooth Shading
+  Symbol Size = 1.0
+  Transparency = 0.0
+  Variable = Pressure
+  Variable Boundary Values = Conservative
+  OBJECT VIEW TRANSFORM:
+    Apply Reflection = Off
+    Apply Rotation = Off
+    Apply Scale = Off
+    Apply Translation = Off
+    Principal Axis = Z
+    Reflection Plane Option = XY Plane
+    Rotation Angle = 0.0 [degree]
+    Rotation Axis From = 0 [m], 0 [m], 0 [m]
+    Rotation Axis To = 0 [m], 0 [m], 0 [m]
+    Rotation Axis Type = Principal Axis
+    Scale Vector = 1 , 1 , 1
+    Translation Vector = 0 [m], 0 [m], 0 [m]
+    X = 0.0 [m]
+    Y = 0.0 [m]
+    Z = 0.0 [m]
+  END
+END
+
+# Sending visibility action from ViewUtilities
+>show /POINT:Point 1, view=/VIEW:View 1
+>show /POINT:Point 2, view=/VIEW:View 2
+>show /POINT:Point 3, view=/VIEW:View 3
+>show /POINT:Point 4, view=/VIEW:View 4
+>show /POINT:Point 5, view=/VIEW:View 5
+>show /POINT:Point 6, view=/VIEW:View 6
+>show /POINT:Point 7, view=/VIEW:View 7
+>show /POINT:Point 8, view=/VIEW:View 8
+>show /POINT:Point 9, view=/VIEW:View 9
+>show /POINT:Point 10, view=/VIEW:View 10
+>show /POINT:Point 11, view=/VIEW:View 11
+>show /POINT:Point 12, view=/VIEW:View 12
+>show /POINT:Point 13, view=/VIEW:View 13
+
+CHART:Chart 1
+  Chart Axes Font = Tahoma, 10, False, False, False, False
+  Chart Axes Titles Font = Tahoma, 10, True, False, False, False
+  Chart Grid Line Width = 1
+  Chart Horizontal Grid = On
+  Chart Legend = On
+  Chart Legend Font = Tahoma, 8, False, False, False, False
+  Chart Legend Inside = Outside Chart
+  Chart Legend Justification = Center
+  Chart Legend Position = Bottom
+  Chart Legend Width Height = 0.2 , 0.4
+  Chart Legend X Justification = Right
+  Chart Legend XY Position = 0.73 , 0.275
+  Chart Legend Y Justification = Center
+  Chart Line Width = 2
+  Chart Lines Order = Series 1,Chart Line 1
+  Chart Minor Grid = Off
+  Chart Minor Grid Line Width = 1
+  Chart Symbol Size = 4
+  Chart Title = Title
+  Chart Title Font = Tahoma, 12, True, False, False, False
+  Chart Title Visibility = On
+  Chart Type = Time
+  Chart Vertical Grid = On
+  Chart X Axis Automatic Number Formatting = On
+  Chart X Axis Label = X Axis <units>
+  Chart X Axis Number Format = %10.3e
+  Chart Y Axis Automatic Number Formatting = On
+  Chart Y Axis Label = Y Axis <units>
+  Chart Y Axis Number Format = %10.3e
+  Default Chart X Variable = Air.Density
+  Default Chart Y Variable = Pressure
+  Default Histogram Y Axis Weighting = None
+  Default Time Chart Variable = Pressure
+  Default Time Chart X Expression = Time
+  Default Time Variable Absolute Value = Off
+  Default Time Variable Boundary Values = Conservative
+  Default X Variable Absolute Value = Off
+  Default X Variable Boundary Values = Conservative
+  Default Y Variable Absolute Value = Off
+  Default Y Variable Boundary Values = Conservative
+  FFT Full Input Range = On
+  FFT Max = 0.0
+  FFT Min = 0.0
+  FFT Subtract Mean = Off
+  FFT Window Type = Hanning
+  FFT X Function = Frequency
+  FFT Y Function = Power Spectral Density
+  Histogram Automatic Divisions = Automatic
+  Histogram Divisions = -1.0,1.0
+  Histogram Divisions Count = 10
+  Histogram Y Axis Value = Count
+  Is FFT Chart = Off
+  Max X = 1.0
+  Max Y = 1.0
+  Min X = -1.0
+  Min Y = -1.0
+  Time Chart Keep Single Case = Off
+  Use Data For X Axis Labels = On
+  Use Data For Y Axis Labels = On
+  X Axis Automatic Range = On
+  X Axis Inverted = Off
+  X Axis Logarithmic Scaling = Off
+  Y Axis Automatic Range = On
+  Y Axis Inverted = Off
+  Y Axis Logarithmic Scaling = Off
+  CHART SERIES:Series 1
+    Chart Line Custom Data Selection = Off
+    Chart Series Type = Regular
+    Series Name = Series 1
+    Time Chart Expression = Time
+    Time Chart Location = /POINT:Point 1
+    Time Chart Type = Point
+    CHART LINE:Chart Line 1
+      Auto Chart Line Colour = On
+      Case Name =
+      Chart Line Colour = 1.0, 0.0, 0.0
+      Chart Line Style = Automatic
+      Chart Line Visibility = On
+      Chart Symbol Colour = 0.0, 1.0, 0.0
+      Chart Symbol Style = None
+      Fill Area = On
+      Fill Area Options = Automatic
+      Is Valid = True
+      Line Name = Series 1
+      Use Automatic Line Naming = On
+    END
+  END
+  CHART SERIES:Series 2
+    Chart Line Custom Data Selection = Off
+    Chart Series Type = Regular
+    Series Name = Series 2
+    Time Chart Expression = Time
+    Time Chart Location = /POINT:Point 2
+    Time Chart Type = Point
+    CHART LINE:Chart Line 2
+      Auto Chart Line Colour = On
+      Case Name =
+      Chart Line Colour = 1.0, 0.0, 0.0
+      Chart Line Style = Automatic
+      Chart Line Visibility = On
+      Chart Symbol Colour = 0.0, 1.0, 0.0
+      Chart Symbol Style = None
+      Fill Area = On
+      Fill Area Options = Automatic
+      Is Valid = True
+      Line Name = Series 2
+      Use Automatic Line Naming = On
+    END
+  END
+
+  CHART SERIES:Series 3
+    Chart Line Custom Data Selection = Off
+    Chart Series Type = Regular
+    Series Name = Series 3
+    Time Chart Expression = Time
+    Time Chart Location = /POINT:Point 3
+    Time Chart Type = Point
+    CHART LINE:Chart Line 3
+      Auto Chart Line Colour = On
+      Case Name =
+      Chart Line Colour = 1.0, 0.0, 0.0
+      Chart Line Style = Automatic
+      Chart Line Visibility = On
+      Chart Symbol Colour = 0.0, 1.0, 0.0
+      Chart Symbol Style = None
+      Fill Area = On
+      Fill Area Options = Automatic
+      Is Valid = True
+      Line Name = Series 3
+      Use Automatic Line Naming = On
+    END
+  END
+
+  CHART SERIES:Series 4
+    Chart Line Custom Data Selection = Off
+    Chart Series Type = Regular
+    Series Name = Series 4
+    Time Chart Expression = Time
+    Time Chart Location = /POINT:Point 4
+    Time Chart Type = Point
+    CHART LINE:Chart Line 4
+      Auto Chart Line Colour = On
+      Case Name =
+      Chart Line Colour = 1.0, 0.0, 0.0
+      Chart Line Style = Automatic
+      Chart Line Visibility = On
+      Chart Symbol Colour = 0.0, 1.0, 0.0
+      Chart Symbol Style = None
+      Fill Area = On
+      Fill Area Options = Automatic
+      Is Valid = True
+      Line Name = Series 4
+      Use Automatic Line Naming = On
+    END
+  END
+
+  CHART SERIES:Series 5
+    Chart Line Custom Data Selection = Off
+    Chart Series Type = Regular
+    Series Name = Series 5
+    Time Chart Expression = Time
+    Time Chart Location = /POINT:Point 5
+    Time Chart Type = Point
+    CHART LINE:Chart Line 5
+      Auto Chart Line Colour = On
+      Case Name =
+      Chart Line Colour = 1.0, 0.0, 0.0
+      Chart Line Style = Automatic
+      Chart Line Visibility = On
+      Chart Symbol Colour = 0.0, 1.0, 0.0
+      Chart Symbol Style = None
+      Fill Area = On
+      Fill Area Options = Automatic
+      Is Valid = True
+      Line Name = Series 5
+      Use Automatic Line Naming = On
+    END
+  END
+
+  CHART SERIES:Series 6
+    Chart Line Custom Data Selection = Off
+    Chart Series Type = Regular
+    Series Name = Series 6
+    Time Chart Expression = Time
+    Time Chart Location = /POINT:Point 6
+    Time Chart Type = Point
+    CHART LINE:Chart Line 6
+      Auto Chart Line Colour = On
+      Case Name =
+      Chart Line Colour = 1.0, 0.0, 0.0
+      Chart Line Style = Automatic
+      Chart Line Visibility = On
+      Chart Symbol Colour = 0.0, 1.0, 0.0
+      Chart Symbol Style = None
+      Fill Area = On
+      Fill Area Options = Automatic
+      Is Valid = True
+      Line Name = Series 6
+      Use Automatic Line Naming = On
+    END
+  END
+
+  CHART SERIES:Series 7
+    Chart Line Custom Data Selection = Off
+    Chart Series Type = Regular
+    Series Name = Series 7
+    Time Chart Expression = Time
+    Time Chart Location = /POINT:Point 7
+    Time Chart Type = Point
+    CHART LINE:Chart Line 7
+      Auto Chart Line Colour = On
+      Case Name =
+      Chart Line Colour = 1.0, 0.0, 0.0
+      Chart Line Style = Automatic
+      Chart Line Visibility = On
+      Chart Symbol Colour = 0.0, 1.0, 0.0
+      Chart Symbol Style = None
+      Fill Area = On
+      Fill Area Options = Automatic
+      Is Valid = True
+      Line Name = Series 7
+      Use Automatic Line Naming = On
+    END
+  END
+
+  CHART SERIES:Series 8
+    Chart Line Custom Data Selection = Off
+    Chart Series Type = Regular
+    Series Name = Series 8
+    Time Chart Expression = Time
+    Time Chart Location = /POINT:Point 8
+    Time Chart Type = Point
+    CHART LINE:Chart Line 8
+      Auto Chart Line Colour = On
+      Case Name =
+      Chart Line Colour = 1.0, 0.0, 0.0
+      Chart Line Style = Automatic
+      Chart Line Visibility = On
+      Chart Symbol Colour = 0.0, 1.0, 0.0
+      Chart Symbol Style = None
+      Fill Area = On
+      Fill Area Options = Automatic
+      Is Valid = True
+      Line Name = Series 8
+      Use Automatic Line Naming = On
+    END
+  END
+
+  CHART SERIES:Series 9
+    Chart Line Custom Data Selection = Off
+    Chart Series Type = Regular
+    Series Name = Series 9
+    Time Chart Expression = Time
+    Time Chart Location = /POINT:Point 9
+    Time Chart Type = Point
+    CHART LINE:Chart Line 9
+      Auto Chart Line Colour = On
+      Case Name =
+      Chart Line Colour = 1.0, 0.0, 0.0
+      Chart Line Style = Automatic
+      Chart Line Visibility = On
+      Chart Symbol Colour = 0.0, 1.0, 0.0
+      Chart Symbol Style = None
+      Fill Area = On
+      Fill Area Options = Automatic
+      Is Valid = True
+      Line Name = Series 9
+      Use Automatic Line Naming = On
+    END
+  END
+
+  CHART SERIES:Series 10
+    Chart Line Custom Data Selection = Off
+    Chart Series Type = Regular
+    Series Name = Series 10
+    Time Chart Expression = Time
+    Time Chart Location = /POINT:Point 10
+    Time Chart Type = Point
+    CHART LINE:Chart Line 10
+      Auto Chart Line Colour = On
+      Case Name =
+      Chart Line Colour = 1.0, 0.0, 0.0
+      Chart Line Style = Automatic
+      Chart Line Visibility = On
+      Chart Symbol Colour = 0.0, 1.0, 0.0
+      Chart Symbol Style = None
+      Fill Area = On
+      Fill Area Options = Automatic
+      Is Valid = True
+      Line Name = Series 10
+      Use Automatic Line Naming = On
+    END
+  END
+
+  CHART SERIES:Series 11
+    Chart Line Custom Data Selection = Off
+    Chart Series Type = Regular
+    Series Name = Series 11
+    Time Chart Expression = Time
+    Time Chart Location = /POINT:Point 11
+    Time Chart Type = Point
+    CHART LINE:Chart Line 11
+      Auto Chart Line Colour = On
+      Case Name =
+      Chart Line Colour = 1.0, 0.0, 0.0
+      Chart Line Style = Automatic
+      Chart Line Visibility = On
+      Chart Symbol Colour = 0.0, 1.0, 0.0
+      Chart Symbol Style = None
+      Fill Area = On
+      Fill Area Options = Automatic
+      Is Valid = True
+      Line Name = Series 11
+      Use Automatic Line Naming = On
+    END
+  END
+
+  CHART SERIES:Series 12
+    Chart Line Custom Data Selection = Off
+    Chart Series Type = Regular
+    Series Name = Series 12
+    Time Chart Expression = Time
+    Time Chart Location = /POINT:Point 12
+    Time Chart Type = Point
+    CHART LINE:Chart Line 12
+      Auto Chart Line Colour = On
+      Case Name =
+      Chart Line Colour = 1.0, 0.0, 0.0
+      Chart Line Style = Automatic
+      Chart Line Visibility = On
+      Chart Symbol Colour = 0.0, 1.0, 0.0
+      Chart Symbol Style = None
+      Fill Area = On
+      Fill Area Options = Automatic
+      Is Valid = True
+      Line Name = Series 12
+      Use Automatic Line Naming = On
+    END
+  END
+
+  CHART SERIES:Series 13
+    Chart Line Custom Data Selection = Off
+    Chart Series Type = Regular
+    Series Name = Series 13
+    Time Chart Expression = Time
+    Time Chart Location = /POINT:Point 13
+    Time Chart Type = Point
+    CHART LINE:Chart Line 13
+      Auto Chart Line Colour = On
+      Case Name =
+      Chart Line Colour = 1.0, 0.0, 0.0
+      Chart Line Style = Automatic
+      Chart Line Visibility = On
+      Chart Symbol Colour = 0.0, 1.0, 0.0
+      Chart Symbol Style = None
+      Fill Area = On
+      Fill Area Options = Automatic
+      Is Valid = True
+      Line Name = Series 13
+      Use Automatic Line Naming = On
+    END
+  END
+
+  OBJECT REPORT OPTIONS:
+    Report Caption =
+  END
+END
+
+>chart refresh=/CHART:Chart 1
+
+
+EXPORT:
+  Export File = L:\FAHAD\slamming ML\1stModel_data\NEW\FN_0.1\lamdabyL_0.5\hbylamda_1by15/results1.dat
+  Export Chart Name = Chart 1
+  Overwrite = On
+END
+
+>export chart
+
+>animate close
+>quit
+
+# Session file stopped:  2018/02/16 14:48:27
+
